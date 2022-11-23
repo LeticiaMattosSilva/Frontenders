@@ -1,130 +1,178 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <!-- CSS only -->
-   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-   integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
- <link rel="stylesheet" href="../css/home.css">
+<html lang="pt-br">
 
- <!-- JQuery -->
- <script src="https://code.jquery.com/jquery-3.6.1.min.js"
-   integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
 
- <!-- JavaScript Bundle with Popper -->
- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-   integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-   crossorigin="anonymous"></script>
- <!-- Font Awesome -->
- <script src="https://kit.fontawesome.com/fb34885149.js" crossorigin="anonymous"></script>
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
 
- <!-- Parallax -->
- <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"></script>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/fb34885149.js" crossorigin="anonymous"></script>
 
-  <title>FrontEnders</title>
-</head>
-<body>
- <!-- Barra de Navegação -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-azul">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        <img src="./img/computador-portatil.png" class="logo" alt="">FrontEnders
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./html/services.html">Serviços</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./html/contact.html">Contato</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./html/login.html">Login</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-<!-- Area do Conteudo -->
-<div id="area-carousel">
-  <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="true">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active" data-bs-interval="2000">
-        <img src="./img/homem_digitando.jpg" class="d-block w-100 imagem-carousel" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>First slide label</h5>
-          <p>Some representative placeholder content for the first slide.</p>
+    <!-- Parallax -->
+    <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+
+    <title>Frontenders</title>
+    <script defer src="./js/register.js"></script>
+    <script defer src="./js/script.js"></script>
+    <!-- JQuery Mask-->
+    <script defer src="./js/jQuery-Mask/dist/jquery.mask.min.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+
+        <div class="container text-center ">
+          <div class="row">
+            <div class="col-6">
+              <div class="form-image">
+                <img src="./img/undraw_site_stats_re_ejgy.svg" alt="" srcset="">
+              </div>
+            </div>
+            <div class="col-6">
+              <form action="#" id="formulario">
+
+                <div class="col-8 mb-3 input-grupo">
+                  <input type="email" class="form-control inputs required" placeholder="Email"
+                    aria-describedby="emailHelp" id="email" oninput="emailValidate()">
+                  <span class="span-required">Digite um email válido</span>
+                </div>
+                <div class="col-8  input-grupo">
+                  <input type="password" class="form-control inputs required" placeholder="Senha" id="password"
+                    oninput="mainPasswordValidate()">
+                  <span class="span-required">Senha deve ter no mínimo 8 caracteres</span>
+                </div>
+                <div class=""> <a class="links" href="#" data-bs-toggle="modal"
+                    data-bs-target="#modal-recuperar-senha">Esqueceu sua
+                    senha?</a>
+                </div>
+                <div class="col-8 input-grupo">
+                  <button type="submit" class="btn btn-primary" id="btn-login">Enviar</button>
+                </div>
+                <div class=""> <a class="links" href="#" data-bs-toggle="modal"
+                    data-bs-target="#modal-registro">Precisando de uma
+                    conta? Registre-se</a>
+                </div>
+
+
+                <!-- Modal - Recuperar senha -->
+
+                <div class="modal fade" id="modal-recuperar-senha" data-bs-backdrop="static" data-bs-keyboard="false"
+                  tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Recuperação de Senha</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="col-8 input-grupo">
+                        <p>Enviaremos um pedido de redefinição de senha para o seu email cadastrado em nosso sistema.</p>
+                        <input type="email" class="form-control inputs required" placeholder="Email"
+                          aria-describedby="emailHelp" id="emailRecover" oninput="emailRecoverValidate()">
+                        <span class="span-required">Digite um email válido</span><br>
+                        
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Feito</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+                <!-- Modal Registrar senha -->
+                <div class="modal fade" id="modal-registro" data-bs-backdrop="static" data-bs-keyboard="false"
+                  tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Criar uma conta</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+
+                      <div class="modal-body">
+                        <div class="row g-5">
+                          <!-- deixar horizontal com espaço 5 entre os inputs -->
+                          <div class="col-6" class="form-floating mb-3">
+                            <input type="text" class="form-control" placeholder="Nome" aria-label="Nome">
+                          </div>
+                          <div class="col-6">
+                            <input type="email" class="form-control inputs required" id="floatingInput" 
+                            placeholder="Email" aria-describedby="emailHelp" id="confirmEmail" oninput="emailRegister()">
+                            <span class="span-required">Digite um email válido</span>
+                          </div>
+                          <div class="col-6">
+                            <input type="password" class="form-control inputs required" placeholder="Senha" aria-label="Senha" 
+                            oninput="passwordRegister()">
+                            <span class="span-required">Senha deve ter no mínimo 8 caracteres</span>
+                          </div>
+                          <div class="col-6">
+                            <input type="password" class="form-control inputs required" placeholder="Confirmar Senha" 
+                            aria-label="Senha" oninput="comparePassword()">
+                            <span class="span-required">Senhas devem ser compatíveis</span>
+                          </div>
+                          <div class="col-6">
+                            <input type="text" class="form-control" onkeypress="$(this).mask('00.000.000-0')"  placeholder="RG" aria-label="RG">
+                          </div>
+                          <div class="col-6">
+                            <input type="text" class="form-control" onkeypress="$(this).mask('00000000')" placeholder="CEP" aria-label="CEP" id="cep">
+                          </div>
+
+                          <fieldset disabled>
+                            <div class=" mb-3 col-12">
+                              <input type="text" class="form-control" placeholder="Estado" id="estado">
+                            </div>
+                            <div class="mb-3 col-12">
+                              <input type="text" class="form-control" placeholder="UF" id="uf">
+                            </div>
+                            <div class="mb-3 col-12">
+                              <input type="text" class="form-control" placeholder="Bairro" id="bairro">
+                            </div>
+                            <div class="mb-3 col-12">
+                              <input type="text" class="form-control" placeholder="Rua" id="rua">
+                            </div>
+
+                          </fieldset>
+                          <fieldset disabled id="campo-numero">
+                            <div class="mb-3 col-12">
+                              <input type="text" class="form-control" onkeypress="$(this).mask('00000000')" placeholder="Numero" id="numero">
+                            </div>
+                            <div class="mb-3 col-12">
+                              <input type="text" class="form-control" placeholder="Complemento">
+                            </div>
+                          </fieldset>
+
+
+
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Feito</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="carousel-item " data-bs-interval="2000">
-        <img src="./img/negocios.jpg " class="d-block w-100 imagem-carousel" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Second slide label</h5>
-          <p>Some representative placeholder content for the second slide.</p>
-        </div>
-      </div>
-      <div class="carousel-item " data-bs-interval="2000">
-        <img src="./img/computador_azul.jpg " class="d-block w-100 imagem-carousel" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Third slide label</h5>
-          <p>Some representative placeholder content for the third slide.</p>
-        </div>
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-  
-</div>
+    </header>
+  </body>
 
-  <!-- <nav class="navbar fixed-bottom navbar-dark bg-dark nav-bottom"> -->
-<!-- Area do rodapé -->
-  <footer class="py-4 mt-5 fixed-bottom bg-azul">
-    <div class="container text-light text-center">
-      
-      <p class="display-6 mb-3"> Entre em contato conosco</p>
-      <div class="row">
-        <img src="./img/computador.png" class="logo" alt="">
-        <div class="col">
-         
-          Ligue para: (21)98755321
-        </div>
-        <div class="col">
-          E-mail FronteEnders2020@gmail.com
-
-        </div>
-        <div class="col">
-          Localização Av. Presidente Vargas 000
-        </div>
-      </div>
-      <br>
-      <small class="text-white-50">&copy;Copyright by FrontEnders. All Rights reserved</small>
-    </div>
-  </footer>  
-      
-  
-    
-  
-
-  
-</body>
 </html>
