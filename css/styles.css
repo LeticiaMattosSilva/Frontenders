@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  
+  
+  
+  }
+  /* .g-3{
+  border: 2px solid red;
+  } */
+  .form-image img{
+    width: 600px;
+  }
+  #container{
+    margin-top:100px ;
+    border: 2px solid greenyellow
+  }
+  #formulario{
+    display: block;
+    /* border: solid 2px red; */
+  }
+  
+  
+  .input-grupo{
+   
+    margin: auto;
+  }
+  
+  .links{
+  text-decoration: none;
+  }
+  
+  #campo-numero{
+    margin: 0;
+  }
+  
+  .span-required{
+    font-size: 12px;
+    display: none;
+    margin: 3px 0 0 1px;
+    color: red;
+  }
+  
+  
