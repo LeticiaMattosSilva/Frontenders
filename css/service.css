@@ -1,6 +1,4 @@
-
-/* Primeiro bloco*/
-
+/* CSS da pagina de serviços */
 .main-title-1 {
     margin: 0 0 65px 0;
     font-size: 60px;
@@ -8,14 +6,6 @@
     margin-top: 100px;
 }
 
-/*.main-title::after {
-    content: "";
-    border-top: 2px solid;
-    width: 15%;
-    position: absolute;
-    top: 100px;
-    left: 42.5%;
-}*/
 
 .about-title {
     font-size: 17px;

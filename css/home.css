@@ -1,7 +1,18 @@
+/* CSS da barra de navegação e também conteudo da pagina HOME */
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
+  }
+  body{
+    min-height: 100%;
+    /* border: 2px solid green; */
+  }
+  footer{
+    /* border: 2px solid red; */
+    bottom: 0;
+    width: 100%;
   }
   .bg-azul{
     background-color: #05071d;
@@ -34,4 +45,11 @@
     height: 500px;
     margin: auto;
    
+  }
+  
+  .fixarRodape{
+    bottom: 0;
+    /* border: 2px solid green; */
+    position: fixed;
+    width: 100%;
   }
