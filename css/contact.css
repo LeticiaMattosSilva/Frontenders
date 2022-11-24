@@ -1,1 +1,6 @@
 /* CSS da pagina que a bruna fez */
+.teste{
+  width: 200px;
+  height: 200px;
+  border: 2px solid red;
+}
