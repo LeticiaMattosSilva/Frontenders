@@ -1,6 +1,148 @@
 /* CSS da pagina que a bruna fez */
-.teste{
+/* .teste{
   width: 200px;
   height: 200px;
   border: 2px solid red;
+} */
+
+.equipe h1{
+  font-size: 70px;
+  color: #05071d;
+  width: 95%;
+  height: auto;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.f1{
+  height: 230px;
+  width: 220px;
+  margin: auto;
+  border-radius: 180px;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.f2{
+  height: 230px;
+  width: 220px;
+  margin: auto;
+  border-radius: 180px;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.f3{
+  height: 230px;
+  width: 220px;
+  margin: auto;
+  border-radius: 180px;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.f4{
+  height: 230px;
+  width: 220px;
+  margin: auto;
+  border-radius: 180px;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.f5{
+  height: 230px;
+  width: 220px;
+  margin: auto;
+  border-radius: 180px;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.Leticia {
+  font-size: 10px;
+}
+
+.Wesley{
+  font-size: 10px;
+}
+
+.Leila{
+  font-size: 10px;
+}
+
+.Paulo{
+  font-size: 10px;
+}
+
+.Bruna{
+  font-size: 10px;
+}
+
+#container{
+  margin: auto;
+  width: 98%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 80px;
+  font-size: 12px;
+}
+
+.botao {
+  width: auto;
+  height: 40px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #05071d;
+  color: white;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.4s linear;
+}
+
+.botao:hover {
+  background-color: blue;
+  cursor: pointer;
+  zoom: 120%;
+}
+
+.historia{
+  font-size: 40px;
+  color: blue;
+  width: auto;
+  height: auto;
+  margin: 50px;
+  text-align: center;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.main-container{
+  margin: auto;
+  background-color: #05071d;
+  width: 98%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 50px;
+  font-size: 12px;
+}
+
+.texto{
+      font-size: 15px;
+      color: white;
+      width: 95%;
+      height: auto;
+      margin: auto;
+      text-align: center;
+      margin-bottom: 50px;
 }
