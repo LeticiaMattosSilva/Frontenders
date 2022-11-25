@@ -38,18 +38,24 @@
   .imagem-carousel{
     width: 1000px;
     height: 500px;
+    
+    /* border: 2px solid blue; */
   }
   
   #area-carousel{
-    width: 1000px;
-    height: 500px;
+    width: 100%;
+    height: auto;
     margin: auto;
+    /* border: 2px solid red; */
    
   }
   
   .fixarRodape{
     bottom: 0;
     /* border: 2px solid green; */
-    position: fixed;
     width: 100%;
+  }
+  .carousel-caption{
+    
+    background-color: rgba(0, 0, 0, 0.7);
   }
