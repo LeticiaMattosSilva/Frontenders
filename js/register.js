@@ -23,7 +23,7 @@ const preencherFormulario = (endereco) => {
 const pesquisarCep = async () => {
     limparFormulario();
     const cep = cepValue.value
-    const url = `http://viacep.com.br/ws/${cep}/json/`
+    const url = `https://viacep.com.br/ws/${cep}/json/`
     // Para resgatar os dados tipo json é necessário utilizar uma ferramenta nativa do JS que é o Fetch
     // retorna uma promessa ou promise * algo que pode acontecer ou não.* É um retorno assíncrono. 
     //NEcessário utilizar métodos para acessar os dados de retorno *método then*
