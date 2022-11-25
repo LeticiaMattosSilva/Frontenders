@@ -62,23 +62,23 @@
 }
 
 .Leticia {
-  font-size: 10px;
+  font-size: 15px;
 }
 
 .Wesley{
-  font-size: 10px;
+  font-size: 15px;
 }
 
 .Leila{
-  font-size: 10px;
+  font-size: 15px;
 }
 
 .Paulo{
-  font-size: 10px;
+  font-size: 15px;
 }
 
 .Bruna{
-  font-size: 10px;
+  font-size: 15px;
 }
 
 #container{
@@ -93,12 +93,9 @@
 }
 
 .botao {
-  width: auto;
+  width: 100px;
   height: 40px;
   margin-top: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
   background-color: #05071d;
   color: white;
   border-radius: 10px;
@@ -106,17 +103,20 @@
   font-weight: bold;
   cursor: pointer;
   transition: all 0.4s linear;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .botao:hover {
-  background-color: blue;
+  background-color: #03F4DC;
   cursor: pointer;
   zoom: 120%;
 }
 
 .historia{
   font-size: 40px;
-  color: blue;
+  color: #03F4DC;
   width: auto;
   height: auto;
   margin: 50px;
@@ -126,23 +126,24 @@
 }
 
 .main-container{
-  margin: auto;
+  margin: 0%;
   background-color: #05071d;
-  width: 98%;
+  width: 100%;
+  height: 500px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   text-align: center;
-  padding-bottom: 50px;
   font-size: 12px;
 }
 
 .texto{
-      font-size: 15px;
-      color: white;
-      width: 95%;
-      height: auto;
-      margin: auto;
-      text-align: center;
-      margin-bottom: 50px;
+    color: white;
+    width: 95%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
 }

@@ -50,6 +50,5 @@
   .fixarRodape{
     bottom: 0;
     /* border: 2px solid green; */
-    position: fixed;
     width: 100%;
   }
