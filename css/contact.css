@@ -16,69 +16,13 @@
   margin-top: 50px;
 }
 
-.f1{
+.fotos{
   height: 230px;
   width: 220px;
   margin: auto;
   border-radius: 180px;
   gap: 10px;
   margin-top: 30px;
-}
-
-.f2{
-  height: 230px;
-  width: 220px;
-  margin: auto;
-  border-radius: 180px;
-  gap: 10px;
-  margin-top: 30px;
-}
-
-.f3{
-  height: 230px;
-  width: 220px;
-  margin: auto;
-  border-radius: 180px;
-  gap: 10px;
-  margin-top: 30px;
-}
-
-.f4{
-  height: 230px;
-  width: 220px;
-  margin: auto;
-  border-radius: 180px;
-  gap: 10px;
-  margin-top: 30px;
-}
-
-.f5{
-  height: 230px;
-  width: 220px;
-  margin: auto;
-  border-radius: 180px;
-  gap: 10px;
-  margin-top: 30px;
-}
-
-.Leticia {
-  font-size: 15px;
-}
-
-.Wesley{
-  font-size: 15px;
-}
-
-.Leila{
-  font-size: 15px;
-}
-
-.Paulo{
-  font-size: 15px;
-}
-
-.Bruna{
-  font-size: 15px;
 }
 
 #container{
@@ -90,6 +34,7 @@
   text-align: center;
   padding-bottom: 80px;
   font-size: 12px;
+  /* border: 2px solid red; */
 }
 
 .botao {
@@ -106,6 +51,7 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  margin: auto;
 }
 
 .botao:hover {
@@ -146,4 +92,8 @@
     margin-bottom: 50px;
     margin-right: 50px;
     margin-top: 50px;
+}
+
+a{
+  text-decoration: none;
 }
