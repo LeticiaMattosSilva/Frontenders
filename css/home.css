@@ -1,61 +1,71 @@
 /* CSS da barra de navegação e também conteudo da pagina HOME */
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    
-  }
-  body{
-    min-height: 100%;
-    /* border: 2px solid green; */
-  }
-  footer{
-    /* border: 2px solid red; */
-    bottom: 0;
-    width: 100%;
-  }
-  .bg-azul{
-    background-color: #05071d;
-  }
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  min-height: 100%;
   
-  .nav-link{
-    text-decoration: none;
-    color: white;
-  }
-  
-  .logo{
-    width: 75px;
-    height: 75px;;
-  }
-  /* footer{
+}
+
+footer {
+  /* border: 2px solid red; */
+  bottom: 0;
+  width: 100%;
+
+  display: block;
+}
+
+.principal {
+  height: 700px;
+  display: block;
+}
+
+.imagem-carousel {
+  width: 1000px;
+  height: 600px;
+
+  /* border: 2px solid blue; */
+}
+
+.bg-azul {
+  background-color: #05071d;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+}
+
+.logo {
+  width: 75px;
+  height: 75px;
+  ;
+}
+
+/* footer{
     border: 2px solid greenyellow;
   }
   footer .row{
     border: 2px solid greenyellow;
   } */
-  
-  
-  .imagem-carousel{
-    width: 1000px;
-    height: 500px;
-    
-    /* border: 2px solid blue; */
-  }
-  
-  #area-carousel{
-    width: 100%;
-    height: auto;
-    margin: auto;
-    /* border: 2px solid red; */
-   
-  }
-  
-  .fixarRodape{
-    bottom: 0;
-    /* border: 2px solid green; */
-    width: 100%;
-  }
-  .carousel-caption{
-    
-    background-color: rgba(0, 0, 0, 0.7);
-  }
+
+
+
+
+#area-carousel {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  /* border: 2px solid red; */
+
+}
+
+
+.carousel-caption {
+
+  background-color: rgba(0, 0, 0, 0.7);
+}
